@@ -10,30 +10,26 @@ var resultadoc = 1;
 
 //Tasca 1. Imprimeix la taula de multiplicar del 9, utilitzant un bucle.
 document.write("<h2> Activitat 1</h2>")
-for (mult = 0; resultadoa <= 11; mult++) {
-  document.write(numnueve + "x" +mult+ "=" +numnueve*mult+"</br>");
+for (vallejo = 0; resultadoa <= 11; vallejo++) {
+  document.write(numnueve + "x" +vallejo+ "=" +numnueve*mult+"</br>");
   resultadoa++
-  if (mult == 10) {
-    document.write("</br>")
-  }
+  document.write("</br>")
 }
 
 //Tasca 2. Imprimeix la taula de multiplicar del 5 a la inversa, utilitzant un bucle.
 document.write("<h2> Activitat 2</h2>")
-for (mult = 10; resultadob <= 11; mult--) {
+for (vallejo = 10; resultadob <= 11; vallejo--) {
     document.write(numcinco + "x" +mult+ "=" +numcinco*mult+ "</br>");
     resultadob++
-    if (mult == 0) {
-      document.write("</br>")
-    }
+    document.write("</br>")
 }
 
 //Tasca 3. Imprimeix totes les taules de multiplicar, utilitzant dos o més bucles.
 document.write("<h2> Activitat 3</h2>")
-for (mult = 0; resultadoc <= 101; mult++) {
+for (vallejo = 0; resultadoc <= 101; vallejo++) {
   document.write(numuno + "x" +mult+ "=" +numuno*mult+ "</br>");
   resultadoc++
-  if (mult == 10) {
+  if (vallejo == 10) {
     document.write("</br>");
     mult = 0;
     numuno++;
