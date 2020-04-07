@@ -1,8 +1,0 @@
-========
-20200327
-========
-Hola David,
-
-- treu l'arxiu index.html fora del directori 'JS - A' 
-- esborra el directori 'JS - A'
-- prova a executar el codi JS des d'un arxiu extern.
